@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Unity-iPhone' do
+    pod 'CreatubblesAPIClient', :git => 'https://github.com/creatubbles/ctb-api-swift.git', :branch => 'develop'
+end

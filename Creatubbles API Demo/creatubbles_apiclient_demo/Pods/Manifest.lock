@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (3.5.0)
+  - CreatubblesAPIClient (0.1.92):
+    - Alamofire (= 3.5.0)
+    - ObjectMapper (= 1.2.0)
+    - p2.OAuth2 (= 2.2.9)
+    - RealmSwift (= 0.98.3)
+    - XCGLogger (= 3.2)
+  - ObjectMapper (1.2.0)
+  - p2.OAuth2 (2.2.9):
+    - SwiftKeychain (~> 1.0)
+  - Realm (0.98.3):
+    - Realm/Headers (= 0.98.3)
+  - Realm/Headers (0.98.3)
+  - RealmSwift (0.98.3):
+    - Realm (= 0.98.3)
+  - SwiftKeychain (1.0.0)
+  - XCGLogger (3.2)
+
+DEPENDENCIES:
+  - CreatubblesAPIClient (from `https://github.com/creatubbles/ctb-api-swift.git`, branch `develop`)
+
+EXTERNAL SOURCES:
+  CreatubblesAPIClient:
+    :branch: develop
+    :git: https://github.com/creatubbles/ctb-api-swift.git
+
+CHECKOUT OPTIONS:
+  CreatubblesAPIClient:
+    :commit: 4b69713c0222ac52004b30226a6507d9167237c0
+    :git: https://github.com/creatubbles/ctb-api-swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  CreatubblesAPIClient: bf5d96a77e030475ac5dd5787d3665a9b7dc63a6
+  ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
+  p2.OAuth2: 2eaf525644bdf0d458ab59c4c1c9f0697132a3af
+  Realm: c6a7d00221a2d5177810a674aebd40c5e0b70b0f
+  RealmSwift: d6ecad6e4c2a645d6ac956c2c7e9efb375f39c31
+  SwiftKeychain: fd9ad69f7b3ff7a0c7ba579da508bbaa89a395b2
+  XCGLogger: da1f341f4bb8979db6e1df64232f04d9698402d4
+
+PODFILE CHECKSUM: 9455bd1ba173054177e920dc2801a70fa2d8d536
+
+COCOAPODS: 1.0.1

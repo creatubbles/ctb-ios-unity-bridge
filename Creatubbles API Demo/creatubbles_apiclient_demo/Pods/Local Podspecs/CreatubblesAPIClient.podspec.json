@@ -1,0 +1,43 @@
+{
+  "name": "CreatubblesAPIClient",
+  "version": "0.1.92",
+  "summary": "A Creatubbles api framework pod.",
+  "description": "Api framework for Creatubbles app. Sets up a secure connection etc.",
+  "homepage": "https://github.com/creatubbles/ctb-api-swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": "Creatubbles",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/creatubbles/ctb-api-swift.git",
+    "tag": "0.1.92"
+  },
+  "source_files": [
+    "CreatubblesAPIClient/**/*.{swift}",
+    "CreatubblesAPIClient/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "ios": {
+    "dependencies": {
+      "p2.OAuth2": [
+        "2.2.9"
+      ],
+      "Alamofire": [
+        "3.5.0"
+      ],
+      "ObjectMapper": [
+        "1.2.0"
+      ],
+      "XCGLogger": [
+        "3.2"
+      ],
+      "RealmSwift": [
+        "0.98.3"
+      ]
+    }
+  }
+}
